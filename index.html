@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shortcut icon" href="images/tea-logo.png" type="image/x-icon">
     <!-- tailwind css link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -14,7 +15,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
-
+    <!--font awesom cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- customize color -->
     <script>
         tailwind.config = {
@@ -34,12 +36,44 @@
     </style>
 </head>
 
-<body>
-    <header>
+<body class="font-manrop">
+    <header class="container lg:mx-auto">
+        <div class="hero ">
+            <div
+                class="hero-content flex flex-col-reverse lg:gap-32 lg:flex-row lg:ml-[90px] lg:mt-[50px] lg:mr-[70px]">
 
+                <div class="lg:w-1/2 mt-10 text-center lg:text-left">
+                    <h1 class=" text-3xl  lg:text-5xl font-bold lg:leading-snug">It's good <br>
+                        tea time at The <br> Tea House</h1>
+                    <p class="py-6 text-xl">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                        exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button
+                        class="btn btn-primary bg-gradient-to-r from-[#F00] to-[#FF8938] border-0 font-bold text-white">Explore
+                        More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-5 h-5 font-extrabold text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="lg:w-1/2"><img src="/images/banner.png" class="ml-10" />
+                    <div
+                        class="-mt-20 flex items-center gap-5 w-60 h-24 p-10 drop-shadow-2xl bg-white rounded-md text-center ">
+                        <div>
+                            <i class="fa-solid fa-star text-amber-500"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-2xl font-bold">5.00</h2>
+                            <p class="text-sm">Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
-    <main>
+    <main class="container mx-auto">
 
+        <!--  -->
     </main>
     <footer>
 
